@@ -24,7 +24,7 @@ t_mlx_cub	*init_mlx(void)
 	}
 	mlx->mlx_ptr = mlx_init();
 	mlx->win_ptr = mlx_new_window(mlx->mlx_ptr, WIN_W, WIN_H,
-			"Cub3D of the Raie-Castor !");
+			"Cub3D");
 	if (mlx->mlx_ptr == NULL || mlx->win_ptr == NULL)
 		return (NULL);
 	mlx->screen = NULL;
